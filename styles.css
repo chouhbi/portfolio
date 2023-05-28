@@ -14,9 +14,8 @@ body {
 }
 
 p {
-    color: #abd1c6;
-  }
-
+  color: #abd1c6;
+}
 
 .header {
   align-self: stretch;
@@ -24,30 +23,29 @@ p {
   justify-content: space-between;
   margin-left: 16px;
   margin-top: 16px;
-  font-size: 4vw;
+  font-size: 6vw;
 }
-.skills{
-    font-size: 36px;
+.skills {
+  margin-top: 8vh;
+  font-size: 6vw;
 }
-.skills b{
+.skills b {
   color: #fffffe;
 }
 b {
   font-weight: 900;
 }
 
-
-
 svg {
   fill: #abd1c6;
   margin-left: 16px;
-  max-height: 30px;
+  height: 5vw;
 }
 
-.education{
-margin-top: 20px;
-  font-size: 36px;
+.education {
+  margin-top: 20px;
+  font-size: 3vw;
 }
-.education h2{
+.education h2 {
   font-weight: 900;
 }
