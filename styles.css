@@ -2,50 +2,152 @@
   margin: 0;
   padding: 0;
   font-weight: 100;
+  color: #fffffe;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background-color: #004643;
-  font-family: "Roboto", sans-serif;
-  color: #fffffe;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-p {
-  color: #abd1c6;
+a {
+  text-decoration: none;
 }
 
-.header {
-  align-self: stretch;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 16px;
-  margin-top: 16px;
-  font-size: 6vw;
-}
-.skills {
-  margin-top: 8vh;
-  font-size: 6vw;
-}
-.skills b {
-  color: #fffffe;
-}
-b {
-  font-weight: 900;
+@media screen and (min-width: 1150px) {
+  .header {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    height: 100vh;
+  }
+
+  svg {
+    fill: #f9bc60;
+    margin-left: 1rem;
+    height: 5rem;
+  }
+
+  .black {
+    font-weight: 900;
+  }
+
+  .light-color {
+    color: #abd1c6;
+  }
+  .remove-font-margin-top {
+    line-height: 4.5rem;
+  }
+
+  .same-line {
+    display: flex;
+  }
+  .margin-top {
+    margin-top: 10vh;
+  }
+  .height-screen {
+    height: 100vh;
+  }
+
+  .font10 {
+    font-size: 10rem;
+  }
+
+  .font6 {
+    font-size: 6rem;
+  }
+  .font4 {
+    font-size: 4rem;
+  }
+  .font2 {
+    font-size: 2rem;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stretch-to-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
-svg {
-  fill: #abd1c6;
-  margin-left: 16px;
-  height: 5vw;
-}
+@media screen and (max-width: 1149px) {
+  body{
+    font-size: 8px;
+  }
+  .header {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+  }
 
-.education {
-  margin-top: 20px;
-  font-size: 3vw;
-}
-.education h2 {
-  font-weight: 900;
+  svg {
+    fill: #f9bc60;
+    margin-left: 1rem;
+    height: 3rem;
+  }
+
+  .black {
+    font-weight: 900;
+  }
+
+  .light-color {
+    color: #abd1c6;
+  }
+  .remove-font-margin-top {
+    line-height: 4.5rem;
+  }
+
+  .same-line {
+    display: flex;
+  }
+  .margin-top {
+    margin-top: 5vh;
+  }
+  .height-screen {
+    height: 50vh;
+  }
+
+  .font10 {
+    font-size: 10em;
+  }
+
+  .font6 {
+    font-size: 6rem;
+  }
+  .font4 {
+    font-size: 3em;
+  }
+  .font2 {
+    font-size: 3em;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+  }
+
+  .stretch-to-height {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: -10;
+    opacity: 8%;
+    height: 100vh;
+  }
 }
