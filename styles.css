@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('font/Roboto-Black.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('font/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('font/Roboto-Thin.ttf') format('truetype');
+  font-weight: light;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +58,7 @@ a {
   .light-color {
     color: #abd1c6;
   }
+
   .remove-font-margin-top {
     line-height: 4.5rem;
   }
@@ -46,9 +66,11 @@ a {
   .same-line {
     display: flex;
   }
+
   .margin-top {
     margin-top: 10vh;
   }
+
   .height-screen {
     height: 100vh;
   }
@@ -60,9 +82,11 @@ a {
   .font6 {
     font-size: 6rem;
   }
+
   .font4 {
     font-size: 4rem;
   }
+
   .font2 {
     font-size: 2rem;
   }
@@ -82,9 +106,10 @@ a {
 }
 
 @media screen and (max-width: 1149px) {
-  body{
+  body {
     font-size: 8px;
   }
+
   .header {
     align-self: stretch;
     display: flex;
@@ -105,6 +130,7 @@ a {
   .light-color {
     color: #abd1c6;
   }
+
   .remove-font-margin-top {
     line-height: 4.5rem;
   }
@@ -112,9 +138,11 @@ a {
   .same-line {
     display: flex;
   }
+
   .margin-top {
     margin-top: 5vh;
   }
+
   .height-screen {
     height: 50vh;
   }
@@ -126,9 +154,11 @@ a {
   .font6 {
     font-size: 6rem;
   }
+
   .font4 {
     font-size: 3em;
   }
+
   .font2 {
     font-size: 3em;
   }
